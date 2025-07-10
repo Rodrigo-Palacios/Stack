@@ -27,4 +27,4 @@ Cada vez que se realiza un cambio se apila el estado previo y al deshacer se des
 
 3. **Inicia el entorno de desarrollo**
     ```bash
-    npm run dev
+    ngpm run dev
