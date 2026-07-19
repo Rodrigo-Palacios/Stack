@@ -18,7 +18,7 @@ Cada vez que se realiza un cambio se apila el estado previo y al deshacer se des
 
 ## Instrucciones para Descargar y Usar
 
-1. **Descarga o clona el proyecto**
+<!-- 1. **Descarga o clona el proyecto** -->
    - Descarga el archivo comprimido o clona el repositorio desde GitHub.
 
 2. **Instala dependencias**
@@ -27,4 +27,4 @@ Cada vez que se realiza un cambio se apila el estado previo y al deshacer se des
 
 3. **Inicia el entorno de desarrollo**
     ```bash
-    ngpm run dev
+    npm run dev
