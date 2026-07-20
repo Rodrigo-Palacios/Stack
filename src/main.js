@@ -35,6 +35,11 @@ function rehacer() {
     actualizarVista();
   }
 }
+
+document.getElementById('guardar').addEventListener('click', realizarAccion);
+document.getElementById('deshacer').addEventListener('click', deshacer);
+document.getElementById('rehacer').addEventListener('click', rehacer);
+
 // Permite usar Ctrl+Z para deshacer y Ctrl+Y para rehacer
 document.getElementById('input').addEventListener('keydown', function(e) {
   if (e.ctrlKey && e.key.toLowerCase() === 'z') { e.preventDefault(); deshacer(); }
